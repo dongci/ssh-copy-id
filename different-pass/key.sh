@@ -1,5 +1,5 @@
 #!/bin/bash
-cat hosts |while read line
+cat ip |while read line
   do
   ./key.exp $line
   done
